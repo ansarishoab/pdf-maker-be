@@ -1,0 +1,21 @@
+{
+  "name": "pdf-maker-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write 'src/**/*.js'"
+  },
+  "author": "ansarishoab",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-healthcheck": "^0.1.0",
+    "pdfkit": "^0.15.0",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
